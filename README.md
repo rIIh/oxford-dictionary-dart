@@ -1,14 +1,14 @@
-# oxford_dict
+# Oxford Dictionary API Wrapper in Dart
 
-A new Flutter package project.
+Package is under development and don't have all API functionality.
+Feel free to contribute!
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+```
+git clone git@github.com:rIIh/oxford-dictionary.git && cd oxford-dictionary
+```
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+
+```
