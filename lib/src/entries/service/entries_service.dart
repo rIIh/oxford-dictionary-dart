@@ -1,6 +1,6 @@
 import 'package:chopper/chopper.dart';
-import 'package:oxford_dict/src/entries/model/dictionary_entry.dart';
-import 'package:oxford_dict/src/utils/response.dart';
+import 'package:oxford_dictionary/src/entries/model/dictionary_entry.dart';
+import 'package:oxford_dictionary/src/utils/response.dart';
 
 part 'entries_service.chopper.dart';
 

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:oxford_dict/src/entries/model/dictionary_entry.dart';
-import 'package:oxford_dict/src/entries/model/result.dart';
-import 'package:oxford_dict/src/index.dart';
+import 'package:oxford_dictionary/src/entries/model/dictionary_entry.dart';
+import 'package:oxford_dictionary/src/entries/model/result.dart';
+import 'package:oxford_dictionary/src/index.dart';
 import 'package:test/test.dart';
 
 void main() {
