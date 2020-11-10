@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-import 'entry.dart';
+import 'lexical_entry.dart';
 import 'lexical_category.dart';
 import 'phrase.dart';
 
@@ -8,7 +8,7 @@ part 'lexical_entries.g.dart';
 
 @JsonSerializable()
 class LexicalEntries {
-  final List<Entry> entries;
+  final List<LexicalEntry> entries;
   final String language;
   final LexicalCategory lexicalCategory;
   final List<Phrase> phrases;
