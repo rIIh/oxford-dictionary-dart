@@ -9,7 +9,7 @@ class SemanticClass {
 
   SemanticClass(this.id, this.text);
 
-  factory SemanticClass.fromJson(Map<String, dynamic> json) => _$SemanticClassFromJson(json);
+  factory SemanticClass.fromJson(Map json) => _$SemanticClassFromJson(json);
 
-  Map<String, dynamic> toJson() => _$SemanticClassToJson(this);
+  Map toJson() => _$SemanticClassToJson(this);
 }

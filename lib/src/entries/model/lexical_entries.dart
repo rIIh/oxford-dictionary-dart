@@ -16,7 +16,7 @@ class LexicalEntries {
 
   LexicalEntries(this.entries, this.language, this.lexicalCategory, this.phrases, this.text);
 
-  factory LexicalEntries.fromJson(Map<String, dynamic> json) => _$LexicalEntriesFromJson(json);
+  factory LexicalEntries.fromJson(Map json) => _$LexicalEntriesFromJson(json);
 
-  Map<String, dynamic> toJson() => _$LexicalEntriesToJson(this);
+  Map toJson() => _$LexicalEntriesToJson(this);
 }

@@ -14,7 +14,7 @@ class DictionaryEntries {
 
   DictionaryEntries({this.id, this.metadata, this.results, this.word});
 
-  factory DictionaryEntries.fromJson(Map<String, dynamic> json) => _$DictionaryEntriesFromJson(json);
+  factory DictionaryEntries.fromJson(Map json) => _$DictionaryEntriesFromJson(json);
 
-  Map<String, dynamic> toJson() => _$DictionaryEntriesToJson(this);
+  Map toJson() => _$DictionaryEntriesToJson(this);
 }

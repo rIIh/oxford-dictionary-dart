@@ -11,7 +11,7 @@ class Pronunciation {
 
   Pronunciation(this.audioFile, this.dialects, this.phoneticNotation, this.phoneticSpelling);
 
-  factory Pronunciation.fromJson(Map<String, dynamic> json) => _$PronunciationFromJson(json);
+  factory Pronunciation.fromJson(Map json) => _$PronunciationFromJson(json);
 
-  Map<String, dynamic> toJson() => _$PronunciationToJson(this);
+  Map toJson() => _$PronunciationToJson(this);
 }

@@ -8,7 +8,7 @@ class Example {
 
   Example(this.text);
 
-  factory Example.fromJson(Map<String, dynamic> json) => _$ExampleFromJson(json);
+  factory Example.fromJson(Map json) => _$ExampleFromJson(json);
 
-  Map<String, dynamic> toJson() => _$ExampleToJson(this);
+  Map toJson() => _$ExampleToJson(this);
 }

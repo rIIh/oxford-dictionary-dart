@@ -9,7 +9,7 @@ class DomainClass {
 
   DomainClass(this.id, this.text);
 
-  factory DomainClass.fromJson(Map<String, dynamic> json) => _$DomainClassFromJson(json);
+  factory DomainClass.fromJson(Map json) => _$DomainClassFromJson(json);
 
-  Map<String, dynamic> toJson() => _$DomainClassToJson(this);
+  Map toJson() => _$DomainClassToJson(this);
 }

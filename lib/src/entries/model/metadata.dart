@@ -10,7 +10,7 @@ class Metadata {
 
   Metadata(this.operation, this.provider, this.schema);
 
-  factory Metadata.fromJson(Map<String, dynamic> json) => _$MetadataFromJson(json);
+  factory Metadata.fromJson(Map json) => _$MetadataFromJson(json);
 
-  Map<String, dynamic> toJson() => _$MetadataToJson(this);
+  Map toJson() => _$MetadataToJson(this);
 }

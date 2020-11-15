@@ -9,7 +9,7 @@ class Phrase {
 
   Phrase(this.id, this.text);
 
-  factory Phrase.fromJson(Map<String, dynamic> json) => _$PhraseFromJson(json);
+  factory Phrase.fromJson(Map json) => _$PhraseFromJson(json);
 
-  Map<String, dynamic> toJson() => _$PhraseToJson(this);
+  Map toJson() => _$PhraseToJson(this);
 }

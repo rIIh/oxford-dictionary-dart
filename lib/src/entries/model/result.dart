@@ -14,7 +14,7 @@ class Result {
 
   Result(this.id, this.language, this.lexicalEntries, this.type, this.word);
 
-  factory Result.fromJson(Map<String, dynamic> json) => _$ResultFromJson(json);
+  factory Result.fromJson(Map json) => _$ResultFromJson(json);
 
-  Map<String, dynamic> toJson() => _$ResultToJson(this);
+  Map toJson() => _$ResultToJson(this);
 }

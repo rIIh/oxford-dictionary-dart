@@ -1,5 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:oxford_dictionary/src/entries/model/synonim.dart';
 
+import 'cross_reference.dart';
 import 'domain_class.dart';
 import 'example.dart';
 import 'semantic_classes.dart';
@@ -7,17 +9,45 @@ import 'semantic_classes.dart';
 part 'sense.g.dart';
 
 @JsonSerializable()
-class Sense {
+class Construction {
+  final String text;
+
+  Construction(this.text);
+
+  factory Construction.fromJson(Map json) => _$ConstructionFromJson(json);
+
+  Map toJson() => _$ConstructionToJson(this);
+}
+
+@JsonSerializable()
+class SenseFromRemote {
+  final List<Construction> constructions;
   final List<String> definitions;
   final List<DomainClass> domainClasses;
   final List<Example> examples;
+  final List<Synonym> synonyms;
   final String id;
   final List<SemanticClass> semanticClasses;
   final List<String> shortDefinitions;
+  final List<String> crossReferenceMarkers;
+  final List<CrossReference> crossReferences;
+  @JsonKey(name: 'subsenses')
+  final List<SenseFromRemote> subSenses;
 
-  Sense(this.definitions, this.domainClasses, this.examples, this.id, this.semanticClasses, this.shortDefinitions);
+  SenseFromRemote(
+    this.definitions,
+    this.domainClasses,
+    this.examples,
+    this.id,
+    this.semanticClasses,
+    this.shortDefinitions,
+    this.crossReferenceMarkers,
+    this.crossReferences,
+    this.subSenses,
+    this.constructions, this.synonyms,
+  );
 
-  factory Sense.fromJson(Map<String, dynamic> json) => _$SenseFromJson(json);
+  factory SenseFromRemote.fromJson(Map json) => _$SenseFromRemoteFromJson(json);
 
-  Map<String, dynamic> toJson() => _$SenseToJson(this);
+  Map toJson() => _$SenseFromRemoteToJson(this);
 }
