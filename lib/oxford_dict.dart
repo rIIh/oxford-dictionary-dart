@@ -16,3 +16,6 @@ export 'src/entries/model/semantic_classes.dart';
 export 'src/entries/model/sense.dart';
 export 'src/entities/word.dart';
 export 'src/lemmas/entity/lemmas.dart';
+export 'src/lemmas/model/inflection_of_data.dart';
+
+export 'src/common/exception/cache_exception.dart';

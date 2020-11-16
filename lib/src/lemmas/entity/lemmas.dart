@@ -8,8 +8,9 @@ class Lemmas {
   final String word;
   final Map<LexicalCategory, List<InflectionOfData>> inflections;
   final LemmaResponse rawResponse;
+  final bool isCached;
 
-  Lemmas.fromEntry(LemmaResponse lemmaResponse)
+  Lemmas.fromEntry(LemmaResponse lemmaResponse, [this.isCached])
       : rawResponse = lemmaResponse,
         word = lemmaResponse.results.firstWhere((element) => element.word != null).word,
         inflections = Map.fromEntries(

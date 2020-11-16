@@ -10,8 +10,9 @@ class Word {
   final Map<remote.LexicalCategory, List<Variant>> variants;
   final Map<remote.LexicalCategory, List<String>> phrases;
   final remote.DictionaryEntries rawResponse;
+  final bool isCached;
 
-  Word.fromEntry(remote.DictionaryEntries entry)
+  Word.fromEntry(remote.DictionaryEntries entry, [this.isCached])
       : id = entry.id,
         word = entry.word,
         language = entry.results?.first?.language,

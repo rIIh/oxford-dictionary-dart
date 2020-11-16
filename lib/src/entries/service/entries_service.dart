@@ -1,4 +1,5 @@
 import 'package:chopper/chopper.dart';
+import 'package:oxford_dictionary/src/common/cache/map_response.dart';
 import 'package:oxford_dictionary/src/entities/word.dart';
 import 'package:oxford_dictionary/src/entries/model/dictionary_entry.dart';
 import 'package:oxford_dictionary/src/utils/io/cached_response.dart';
@@ -25,8 +26,9 @@ class EntriesServiceImpl extends CachedEntriesService {
         word,
       )
       .then(mapResponse)
+      .then(mapCachedResponse)
       .then(
-        (value) => Word.fromEntry(value),
+        (response) => Word.fromEntry(response.body, response.base is CachedResponse),
       );
 }
 
@@ -43,11 +45,14 @@ class CachedEntriesService extends _$EntriesService {
       return cache.get(key).then(
             (value) => Response(
               CachedResponse(),
-              DictionaryEntries.fromJson(value),
+              value != null ? DictionaryEntries.fromJson(value) : null,
             ),
           );
     }
-    final response = await super._search(language, word);
+    final response = await super._search(language, word).catchError((error) {
+      cache.put(key, null);
+      return error;
+    });
     cache.put(key, response.body);
     return response;
   }

@@ -1,4 +1,5 @@
 import 'package:chopper/chopper.dart';
+import 'package:oxford_dictionary/src/common/cache/map_response.dart';
 import 'package:oxford_dictionary/src/lemmas/entity/lemmas.dart';
 import 'package:oxford_dictionary/src/lemmas/model/lemma_response.dart';
 import 'package:oxford_dictionary/src/utils/io/cached_response.dart';
@@ -25,8 +26,9 @@ class LemmasServiceImpl extends CachedLemmasService {
         word,
       )
       .then(mapResponse)
+      .then(mapCachedResponse)
       .then(
-        (value) => Lemmas.fromEntry(value),
+        (response) => Lemmas.fromEntry(response.body, response.base is CachedResponse),
       );
 }
 
@@ -43,11 +45,14 @@ class CachedLemmasService extends _$LemmasService {
       return cache.get(key).then(
             (value) => Response(
               CachedResponse(),
-              LemmaResponse.fromJson(value),
+              value != null ? LemmaResponse.fromJson(value) : null,
             ),
           );
     }
-    final response = await super._search(language, word);
+    final response = await super._search(language, word).catchError((error) {
+      cache.put(key, null);
+      return error;
+    });
     cache.put(key, response.body);
     return response;
   }
