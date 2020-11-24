@@ -10,5 +10,10 @@ git clone git@github.com:rIIh/oxford-dictionary.git && cd oxford-dictionary
 ```
 
 ```
+flutter pub get
+```
 
+
+```
+flutter pub run build_runner build
 ```
