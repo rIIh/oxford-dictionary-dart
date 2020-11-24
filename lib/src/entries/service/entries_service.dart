@@ -40,7 +40,7 @@ class CachedEntriesService extends _$EntriesService {
   @override
   Future<Response<DictionaryEntries>> _search(String language, String word) async {
     final key = 'entry_$word';
-    final hasCache = await cache?.containsKey(key) == true;
+    final hasCache = (await cache?.containsKey(key)) == true;
     if (hasCache) {
       return cache.get(key).then(
             (value) => Response(
@@ -49,11 +49,11 @@ class CachedEntriesService extends _$EntriesService {
             ),
           );
     }
-    final response = await super._search(language, word).catchError((error) {
-      cache.put(key, null);
+    final response = await super._search(language, word).catchError((error) async {
+      await cache?.put(key, null);
       return error;
     });
-    cache.put(key, response.body);
+    await cache?.put(key, response.body.toJson());
     return response;
   }
 }

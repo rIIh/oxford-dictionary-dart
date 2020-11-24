@@ -49,11 +49,11 @@ class CachedLemmasService extends _$LemmasService {
             ),
           );
     }
-    final response = await super._search(language, word).catchError((error) {
-      cache.put(key, null);
+    final response = await super._search(language, word).catchError((error) async {
+      await cache?.put(key, null);
       return error;
     });
-    cache.put(key, response.body);
+    await cache?.put(key, response.body.toJson());
     return response;
   }
 }
