@@ -1,0 +1,359 @@
+{
+  "id": "industry",
+  "metadata": {
+    "operation": "retrieve",
+    "provider": "Oxford University Press",
+    "schema": "RetrieveEntry"
+  },
+  "results": [
+    {
+      "id": "industry",
+      "language": "en-gb",
+      "lexicalEntries": [
+        {
+          "entries": [
+            {
+              "etymologies": [
+                "late Middle English (in industry (sense 2)): from French industrie or Latin industria ‘diligence’"
+              ],
+              "inflections": [
+                {
+                  "grammaticalFeatures": [
+                    {
+                      "id": "plural",
+                      "text": "Plural",
+                      "type": "Number"
+                    }
+                  ],
+                  "inflectedForm": "industries"
+                }
+              ],
+              "pronunciations": [
+                {
+                  "audioFile": "https://audio.oxforddictionaries.com/en/mp3/industry_gb_1.mp3",
+                  "dialects": [
+                    "British English"
+                  ],
+                  "phoneticNotation": "IPA",
+                  "phoneticSpelling": "ˈɪndəstri"
+                }
+              ],
+              "senses": [
+                {
+                  "definitions": [
+                    "economic activity concerned with the processing of raw materials and manufacture of goods in factories"
+                  ],
+                  "examples": [
+                    {
+                      "text": "new investment incentives for British industry"
+                    }
+                  ],
+                  "id": "m_en_gbus0506110.006",
+                  "notes": [
+                    {
+                      "text": "mass noun",
+                      "type": "grammaticalNote"
+                    }
+                  ],
+                  "semanticClasses": [
+                    {
+                      "id": "industry",
+                      "text": "Industry"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "economic activity involving processing of raw materials and manufacture of goods"
+                  ],
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "a particular form or branch of economic or commercial activity"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the car industry"
+                        }
+                      ],
+                      "id": "m_en_gbus0506110.008",
+                      "notes": [
+                        {
+                          "text": "count noun, with adjective or noun modifier",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "semanticClasses": [
+                        {
+                          "id": "industry",
+                          "text": "Industry"
+                        }
+                      ],
+                      "shortDefinitions": [
+                        "particular economic or commercial activity"
+                      ],
+                      "synonyms": [
+                        {
+                          "language": "en",
+                          "text": "business"
+                        },
+                        {
+                          "language": "en",
+                          "text": "trade"
+                        },
+                        {
+                          "language": "en",
+                          "text": "field"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line of work"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line of business"
+                        },
+                        {
+                          "language": "en",
+                          "text": "commercial enterprise"
+                        },
+                        {
+                          "language": "en",
+                          "text": "service"
+                        }
+                      ],
+                      "thesaurusLinks": [
+                        {
+                          "entry_id": "industry",
+                          "sense_id": "t_en_gb0007745.002"
+                        }
+                      ]
+                    },
+                    {
+                      "definitions": [
+                        "an activity or domain in which a great deal of effort is expended"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the Shakespeare industry"
+                        }
+                      ],
+                      "id": "m_en_gbus0506110.011",
+                      "notes": [
+                        {
+                          "text": "count noun",
+                          "type": "grammaticalNote"
+                        },
+                        {
+                          "text": "with adjective or noun modifier",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "registers": [
+                        {
+                          "id": "informal",
+                          "text": "Informal"
+                        }
+                      ],
+                      "semanticClasses": [
+                        {
+                          "id": "sphere_of_activity",
+                          "text": "Sphere_Of_Activity"
+                        }
+                      ],
+                      "shortDefinitions": [
+                        "activity or domain involving much effort"
+                      ],
+                      "synonyms": [
+                        {
+                          "language": "en",
+                          "text": "business"
+                        },
+                        {
+                          "language": "en",
+                          "text": "trade"
+                        },
+                        {
+                          "language": "en",
+                          "text": "field"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line of work"
+                        },
+                        {
+                          "language": "en",
+                          "text": "line of business"
+                        },
+                        {
+                          "language": "en",
+                          "text": "commercial enterprise"
+                        },
+                        {
+                          "language": "en",
+                          "text": "service"
+                        }
+                      ],
+                      "thesaurusLinks": [
+                        {
+                          "entry_id": "industry",
+                          "sense_id": "t_en_gb0007745.002"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "language": "en",
+                      "text": "manufacturing"
+                    },
+                    {
+                      "language": "en",
+                      "text": "production"
+                    },
+                    {
+                      "language": "en",
+                      "text": "fabrication"
+                    },
+                    {
+                      "language": "en",
+                      "text": "construction"
+                    }
+                  ],
+                  "thesaurusLinks": [
+                    {
+                      "entry_id": "industry",
+                      "sense_id": "t_en_gb0007745.001"
+                    }
+                  ]
+                },
+                {
+                  "constructions": [
+                    {
+                      "text": "a hive of industry"
+                    }
+                  ],
+                  "definitions": [
+                    "hard work"
+                  ],
+                  "examples": [
+                    {
+                      "text": "the kitchen became a hive of industry"
+                    }
+                  ],
+                  "id": "m_en_gbus0506110.013",
+                  "notes": [
+                    {
+                      "text": "mass noun",
+                      "type": "grammaticalNote"
+                    }
+                  ],
+                  "semanticClasses": [
+                    {
+                      "id": "exertion",
+                      "text": "Exertion"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "hard work"
+                  ],
+                  "synonyms": [
+                    {
+                      "language": "en",
+                      "text": "hard work"
+                    },
+                    {
+                      "language": "en",
+                      "text": "industriousness"
+                    },
+                    {
+                      "language": "en",
+                      "text": "diligence"
+                    },
+                    {
+                      "language": "en",
+                      "text": "assiduity"
+                    },
+                    {
+                      "language": "en",
+                      "text": "application"
+                    },
+                    {
+                      "language": "en",
+                      "text": "sedulousness"
+                    },
+                    {
+                      "language": "en",
+                      "text": "sedulity"
+                    },
+                    {
+                      "language": "en",
+                      "text": "conscientiousness"
+                    },
+                    {
+                      "language": "en",
+                      "text": "steadiness"
+                    },
+                    {
+                      "language": "en",
+                      "text": "tirelessness"
+                    },
+                    {
+                      "language": "en",
+                      "text": "persistence"
+                    },
+                    {
+                      "language": "en",
+                      "text": "pertinacity"
+                    },
+                    {
+                      "language": "en",
+                      "text": "perseverance"
+                    },
+                    {
+                      "language": "en",
+                      "text": "dedication"
+                    },
+                    {
+                      "language": "en",
+                      "text": "determination"
+                    },
+                    {
+                      "language": "en",
+                      "text": "rigour"
+                    },
+                    {
+                      "language": "en",
+                      "text": "rigorousness"
+                    }
+                  ],
+                  "thesaurusLinks": [
+                    {
+                      "entry_id": "industry",
+                      "sense_id": "t_en_gb0007745.003"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "noun",
+            "text": "Noun"
+          },
+          "text": "industry"
+        }
+      ],
+      "type": "headword",
+      "word": "industry"
+    }
+  ],
+  "word": "industry"
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "provider": "Oxford University Press"
+  },
+  "results": [
+    {
+      "id": "industry",
+      "language": "en",
+      "lexicalEntries": [
+        {
+          "inflectionOf": [
+            {
+              "id": "industry",
+              "text": "industry"
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": {
+            "id": "noun",
+            "text": "Noun"
+          },
+          "text": "industry"
+        }
+      ],
+      "word": "industry"
+    }
+  ]
+}
