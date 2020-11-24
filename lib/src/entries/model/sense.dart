@@ -44,7 +44,8 @@ class SenseFromRemote {
     this.crossReferenceMarkers,
     this.crossReferences,
     this.subSenses,
-    this.constructions, this.synonyms,
+    this.constructions,
+    this.synonyms,
   );
 
   factory SenseFromRemote.fromJson(Map json) => _$SenseFromRemoteFromJson(json);

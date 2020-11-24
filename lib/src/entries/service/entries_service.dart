@@ -38,7 +38,10 @@ class CachedEntriesService extends _$EntriesService {
   CachedEntriesService(this.cache, [ChopperClient client]) : super(client);
 
   @override
-  Future<Response<DictionaryEntries>> _search(String language, String word) async {
+  Future<Response<DictionaryEntries>> _search(
+    String language,
+    String word,
+  ) async {
     final key = 'entry_$word';
     final hasCache = (await cache?.containsKey(key)) == true;
     if (hasCache) {
@@ -49,10 +52,12 @@ class CachedEntriesService extends _$EntriesService {
             ),
           );
     }
-    final response = await super._search(language, word).catchError((error) async {
-      await cache?.put(key, null);
-      return error;
-    });
+    final response = await super._search(language, word).catchError(
+      (error) async {
+        await cache?.put(key, null);
+        return error;
+      },
+    );
     await cache?.put(key, response.body.toJson());
     return response;
   }

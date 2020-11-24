@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:oxford_dictionary/oxford_dict.dart';
 import 'package:oxford_dictionary/src/entities/word.dart';
 import 'package:oxford_dictionary/src/index.dart';
@@ -31,7 +29,12 @@ void main() {
 
     test('has valid structure', () {
       word.word == testWord;
-      expect(word.variants.keys, containsAll([LexicalCategory('noun', 'noun')]));
+      expect(
+        word.variants.keys,
+        contains(
+          LexicalCategory('noun', 'noun'),
+        ),
+      );
     });
   });
 

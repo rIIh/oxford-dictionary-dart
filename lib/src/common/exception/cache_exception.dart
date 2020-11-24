@@ -1,3 +1,1 @@
-class CachedValueIsEmptyException extends Error implements Exception {
-
-}
+class CachedValueIsEmptyException extends Error implements Exception {}

@@ -64,7 +64,6 @@ class Word {
               ?.expand((element) => element),
         ),
         rawResponse = entry;
-
 }
 
 class Variant {
@@ -80,7 +79,6 @@ class Variant {
         homographNumber = entry.homographNumber,
         pronunciations = entry.pronunciations,
         etymologies = entry.etymologies;
-
 }
 
 class Sense {

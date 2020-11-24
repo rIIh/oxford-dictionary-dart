@@ -18,7 +18,7 @@ extension MergeMapEntries<K, V> on Iterable<MapEntry<K, V>> {
 Iterable<MapEntry<K, Iterable<V>>> _mergeValues<K, V>(Iterable<MapEntry<K, Iterable<V>>> target) {
   return target.fold<List<MapEntry<K, List<V>>>>(
     [],
-        (reduced, element) {
+    (reduced, element) {
       if (reduced.map((e) => e.key).contains(element.key)) {
         final list = reduced.firstWhere((reducedElement) => reducedElement.key == element.key).value;
         list.addAll([...element.value]);

@@ -4,7 +4,5 @@ import '../../utils/json_serializer.dart';
 
 // ignore: avoid_classes_with_only_static_members
 class LemmasFactories {
-  static Map<Type, JsonFactory> get create => {
-    LemmaResponse: (json) => LemmaResponse.fromJson(json)
-  };
+  static Map<Type, JsonFactory> get create => {LemmaResponse: (json) => LemmaResponse.fromJson(json)};
 }

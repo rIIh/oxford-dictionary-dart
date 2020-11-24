@@ -28,7 +28,10 @@ class LemmasServiceImpl extends CachedLemmasService {
       .then(mapResponse)
       .then(mapCachedResponse)
       .then(
-        (response) => Lemmas.fromEntry(response.body, response.base is CachedResponse),
+        (response) => Lemmas.fromEntry(
+          response.body,
+          response.base is CachedResponse,
+        ),
       );
 }
 

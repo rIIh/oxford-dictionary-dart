@@ -17,7 +17,13 @@ void main() {
     try {
       cache.clear();
     } catch (_) {}
-    oxfordDictionary = OxfordDictionary('en', 'test_id', 'test_key', cache: cache, client: ClientMock());
+    oxfordDictionary = OxfordDictionary(
+      'en',
+      'test_id',
+      'test_key',
+      cache: cache,
+      client: ClientMock(),
+    );
   });
 
   test('cache works as expected', () async {

@@ -1,4 +1,3 @@
-
 import 'package:json_annotation/json_annotation.dart';
 import 'package:oxford_dictionary/src/entries/model/metadata.dart';
 
