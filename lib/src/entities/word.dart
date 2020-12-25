@@ -1,4 +1,5 @@
 import 'dart:collection';
+
 import 'package:oxford_dictionary/oxford_dict.dart' as remote;
 import 'package:oxford_dictionary/src/entries/model/cross_reference.dart';
 import 'package:oxford_dictionary/src/entries/model/grammatical_feature.dart';
@@ -57,7 +58,7 @@ class Word {
                 (e) => e.lexicalEntries?.where((element) => element != null)?.map(
                       (e) => MapEntry(
                         e.lexicalCategory,
-                        e.phrases?.where((element) => element != null)?.map((e) => e.text)?.toList(),
+                        e.phrases?.where((element) => element != null)?.map((e) => e.text)?.toList() ?? [],
                       ),
                     ),
               )
@@ -75,10 +76,10 @@ class Variant {
 
   Variant.fromLexicalEntry(remote.LexicalEntry entry)
       : senses = entry.senses.map((e) => Sense.fromRemoteSense(e)).toList(),
-        grammaticalFeatures = entry.grammaticalFeatures,
+        grammaticalFeatures = entry.grammaticalFeatures ?? [],
         homographNumber = entry.homographNumber,
-        pronunciations = entry.pronunciations,
-        etymologies = entry.etymologies;
+        pronunciations = entry.pronunciations ?? [],
+        etymologies = entry.etymologies ?? [];
 }
 
 class Sense {
@@ -94,14 +95,14 @@ class Sense {
   final bool isCrossReferenced;
 
   Sense.fromRemoteSense(remote.SenseFromRemote remoteSense)
-      : definitions = remoteSense.definitions ?? remoteSense.crossReferenceMarkers,
-        crossReferences = remoteSense.crossReferences,
-        subSenses = remoteSense.subSenses?.map((e) => Sense.fromRemoteSense(e))?.toList(),
-        constructions = remoteSense.constructions?.map((e) => e.text)?.toList(),
-        synonyms = remoteSense.synonyms?.map((e) => e.text)?.toList(),
+      : definitions = remoteSense.definitions ?? remoteSense.crossReferenceMarkers ?? [],
+        crossReferences = remoteSense.crossReferences ?? [],
+        subSenses = remoteSense.subSenses?.map((e) => Sense.fromRemoteSense(e))?.toList() ?? [],
+        constructions = remoteSense.constructions?.map((e) => e.text)?.toList() ?? [],
+        synonyms = remoteSense.synonyms?.map((e) => e.text)?.toList() ?? [],
         isCrossReferenced = remoteSense.crossReferenceMarkers != null && remoteSense.definitions == null,
-        shortDefinitions = remoteSense.shortDefinitions,
-        examples = remoteSense.examples?.map((e) => e.text)?.toList(),
-        semanticClasses = remoteSense.semanticClasses?.map((e) => e.text)?.toList(),
-        domains = remoteSense.domainClasses?.map((e) => e.text)?.toList();
+        shortDefinitions = remoteSense.shortDefinitions ?? [],
+        examples = remoteSense.examples?.map((e) => e.text)?.toList() ?? [],
+        semanticClasses = remoteSense.semanticClasses?.map((e) => e.text)?.toList() ?? [],
+        domains = remoteSense.domainClasses?.map((e) => e.text)?.toList() ?? [];
 }
