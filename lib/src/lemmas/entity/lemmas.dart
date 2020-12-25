@@ -1,4 +1,4 @@
-import 'package:oxford_dictionary/oxford_dict.dart';
+import 'package:oxford_dictionary/oxford_dictionary.dart';
 import 'package:oxford_dictionary/src/lemmas/model/inflection_of_data.dart';
 import 'package:oxford_dictionary/src/lemmas/model/lemma_response.dart';
 import 'package:oxford_dictionary/src/utils/iterable/expand.dart';

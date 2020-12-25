@@ -1,4 +1,4 @@
-import 'package:oxford_dictionary/oxford_dict.dart';
+import 'package:oxford_dictionary/oxford_dictionary.dart';
 import 'package:oxford_dictionary/src/entities/word.dart';
 import 'package:oxford_dictionary/src/index.dart';
 import 'package:test/test.dart';

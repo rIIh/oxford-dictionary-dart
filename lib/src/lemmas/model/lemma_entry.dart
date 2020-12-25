@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:oxford_dictionary/oxford_dict.dart';
+import 'package:oxford_dictionary/oxford_dictionary.dart';
 
 import 'inflection_of_data.dart';
 

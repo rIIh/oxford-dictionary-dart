@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:oxford_dictionary/oxford_dict.dart' as remote;
+import 'package:oxford_dictionary/oxford_dictionary.dart' as remote;
 import 'package:oxford_dictionary/src/entries/model/cross_reference.dart';
 import 'package:oxford_dictionary/src/entries/model/grammatical_feature.dart';
 

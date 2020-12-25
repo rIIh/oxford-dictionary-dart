@@ -1,4 +1,4 @@
-import 'package:oxford_dictionary/oxford_dict.dart';
+import 'package:oxford_dictionary/oxford_dictionary.dart';
 import 'package:stash/stash_api.dart';
 import 'package:stash/stash_memory.dart';
 import 'package:test/test.dart';

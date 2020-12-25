@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-import 'package:oxford_dictionary/oxford_dict.dart';
+import 'package:oxford_dictionary/oxford_dictionary.dart';
 
 void main() {
   find('programming').then((word) {});
