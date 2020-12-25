@@ -1,8 +1,8 @@
 name: Dart publish package
 
 on:
-  release:
-    types: [published, created, released]
+  repository_dispatch:
+    types: [publish-event]
   workflow_dispatch:
 
 jobs: 
