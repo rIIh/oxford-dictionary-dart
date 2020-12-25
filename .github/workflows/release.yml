@@ -62,7 +62,8 @@ jobs:
             @semantic-release/git
             @semantic-release/github"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
   publish:
     runs-on: ubuntu-latest
     needs: [release]
