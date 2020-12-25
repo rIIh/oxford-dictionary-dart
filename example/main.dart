@@ -21,25 +21,25 @@ Future<Word> find(String wordString, [http.Client client]) async {
   print(word);
 
   // get phrases
-  final phrases = word.phrases.values?.map((phrases) => phrases)?.expand((phrases) => phrases)?.toList();
+  final phrases = word.phrases.values.map((phrases) => phrases).expand((phrases) => phrases).toList();
 
   // get pronunciations
   final pronunciations = word.variants.values
-      ?.map((e) => e.map((e) => e.pronunciations))
-      ?.expand((pronunciations) => pronunciations)
-      ?.toList();
+      .map((e) => e.map((e) => e.pronunciations))
+      .expand((pronunciations) => pronunciations)
+      .toList();
 
   // get senses
   final senses = word.variants.values
-      ?.map((variants) => variants?.map((variant) => variant.senses))
-      ?.expand((senses) => senses)
-      ?.toList();
+      .map((variants) => variants?.map((variant) => variant.senses))
+      .expand((senses) => senses)
+      .toList();
 
   // get definitions
-  final definitions = senses?.map((e) => e.map((e) => e.definitions))?.expand((definitions) => definitions)?.toList();
+  final definitions = senses.map((e) => e.map((e) => e.definitions)).expand((definitions) => definitions).toList();
 
   // get sub senses
-  final subSenses = senses?.map((e) => e.map((e) => e.subSenses))?.expand((subSenses) => subSenses)?.toList();
+  final subSenses = senses.map((e) => e.map((e) => e.subSenses)).expand((subSenses) => subSenses).toList();
 
   print([phrases, pronunciations, senses, definitions, subSenses].join('\n'));
 
