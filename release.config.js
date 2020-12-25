@@ -1,7 +1,5 @@
 module.exports = {
-  branches: [
-    "master",
-  ],
+  branches: ["master", "main"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -10,6 +8,9 @@ module.exports = {
           { scope: "develop", release: false },
           { scope: "config", release: "patch" },
           { scope: "no-release", release: false },
+          { type: "docs", release: "patch" },
+          { type: "refactor", release: "patch" },
+          { type: "perf", release: "patch" },
         ],
         parserOpts: {
           mergePattern: "^Merge branch '(.*)' into '(.*)'$",
@@ -21,6 +22,35 @@ module.exports = {
       "@semantic-release/release-notes-generator",
       {
         preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            {
+              type: "feat",
+              section: ":sparkles: Features",
+              hidden: false,
+            },
+            {
+              type: "fix",
+              section: ":bug: Bug fixes",
+              hidden: false,
+            },
+            {
+              type: "docs",
+              section: ":memo: Documentation",
+              hidden: false,
+            },
+            {
+              type: "refactor",
+              section: ":zap: Refactoring",
+              hidden: false,
+            },
+            {
+              type: "perf",
+              section: ":fast_forward: Performance",
+              hidden: false,
+            },
+          ],
+        },
       },
     ],
     "semantic-release-dart",
@@ -33,8 +63,8 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md", 'pubspec.yaml']
-      }
+        assets: ["CHANGELOG.md", "pubspec.yaml"],
+      },
     ],
     "@semantic-release/github",
   ],
