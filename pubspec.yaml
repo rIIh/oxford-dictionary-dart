@@ -1,5 +1,5 @@
 name: oxford_dictionary
-description: A new Flutter package project.
+description: Oxford Dictionary Dart client. Use it to get word definitions, pronunciations and examples.
 version: 1.0.0
 homepage: https://github.com/rIIh
 
