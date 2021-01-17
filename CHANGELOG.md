@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/rIIh/oxford-dictionary-dart/compare/v1.0.0...v1.0.1) (2021-01-17)
+
+
+### :memo: Documentation
+
+* provide package description ([1cae4a2](https://github.com/rIIh/oxford-dictionary-dart/commit/1cae4a2e7e4fc3efefe27fc44c1bb8e4854adac9))
+
 ## 1.0.0 (2020-12-25)
 
 

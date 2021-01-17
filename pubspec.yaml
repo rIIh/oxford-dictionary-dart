@@ -1,6 +1,6 @@
 name: oxford_dictionary
 description: Oxford Dictionary Dart client. Use it to get word definitions, pronunciations and examples.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/rIIh
 
 environment:
