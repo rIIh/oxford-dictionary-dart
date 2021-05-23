@@ -12,15 +12,6 @@ Example _$ExampleFromJson(Map json) {
   );
 }
 
-Map<String, dynamic> _$ExampleToJson(Example instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$ExampleToJson(Example instance) => <String, dynamic>{
+      'text': instance.text,
+    };

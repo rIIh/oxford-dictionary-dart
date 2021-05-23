@@ -21,24 +21,24 @@ class Construction {
 
 @JsonSerializable()
 class SenseFromRemote {
-  final List<Construction> constructions;
-  final List<String> definitions;
-  final List<DomainClass> domainClasses;
-  final List<Example> examples;
-  final List<Synonym> synonyms;
   final String id;
-  final List<SemanticClass> semanticClasses;
-  final List<String> shortDefinitions;
-  final List<String> crossReferenceMarkers;
-  final List<CrossReference> crossReferences;
+  final List<Construction>? constructions;
+  final List<String>? definitions;
+  final List<DomainClass>? domainClasses;
+  final List<Example>? examples;
+  final List<Synonym>? synonyms;
+  final List<SemanticClass>? semanticClasses;
+  final List<String>? shortDefinitions;
+  final List<String>? crossReferenceMarkers;
+  final List<CrossReference>? crossReferences;
   @JsonKey(name: 'subsenses')
-  final List<SenseFromRemote> subSenses;
+  final List<SenseFromRemote>? subSenses;
 
   SenseFromRemote(
+    this.id,
     this.definitions,
     this.domainClasses,
     this.examples,
-    this.id,
     this.semanticClasses,
     this.shortDefinitions,
     this.crossReferenceMarkers,

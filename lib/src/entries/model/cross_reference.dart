@@ -5,8 +5,8 @@ part 'cross_reference.g.dart';
 @JsonSerializable()
 class CrossReference {
   final String id;
-  final String text;
-  final String type;
+  final String? text;
+  final String? type;
 
   CrossReference(this.id, this.text, this.type);
 

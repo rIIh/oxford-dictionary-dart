@@ -6,7 +6,7 @@ import 'package:test/test.dart';
 import 'mock/client_mock.dart';
 
 void main() {
-  OxfordDictionary _dictionary;
+  late OxfordDictionary _dictionary;
 
   setUp(() async {
     _dictionary = OxfordDictionary(
@@ -21,10 +21,10 @@ void main() {
 
   group('oxford dictionary entries', () {
     String testWord = 'industry';
-    Word word;
+    late Word word;
 
     setUp(() async {
-      word = await _dictionary.entries.search('industry');
+      word = await _dictionary.entries.search('industry').then((value) => value!);
     });
 
     test('has valid structure', () {
@@ -40,10 +40,10 @@ void main() {
 
   group('oxford dictionary entries', () {
     String testWord = 'industry';
-    Lemmas lemmas;
+    late Lemmas lemmas;
 
     setUp(() async {
-      lemmas = await _dictionary.lemmas.search('industry');
+      lemmas = await _dictionary.lemmas.search('industry').then((value) => value!);
     });
 
     test('has valid structure', () {

@@ -1,0 +1,2896 @@
+{
+  "sportstar": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'sportstar'"
+    }
+  },
+  "wizard": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "wizard",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "wizard",
+                  "text": "wizard"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "wizard"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "wizard",
+                  "text": "wizard"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "wizard"
+            }
+          ],
+          "word": "wizard"
+        }
+      ]
+    }
+  },
+  "trp": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'trp'"
+    }
+  },
+  "methotrexate": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "methotrexate",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "methotrexate",
+                  "text": "methotrexate"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "methotrexate"
+            }
+          ],
+          "word": "methotrexate"
+        }
+      ]
+    }
+  },
+  "situation": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "situation",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "situation",
+                  "text": "situation"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "situation"
+            }
+          ],
+          "word": "situation"
+        }
+      ]
+    }
+  },
+  "bajar": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'bajar'"
+    }
+  },
+  "hyatt": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'hyatt'"
+    }
+  },
+  "lockable": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "lockable",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "lockable",
+                  "text": "lockable"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "lockable"
+            }
+          ],
+          "word": "lockable"
+        }
+      ]
+    }
+  },
+  "pollock": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "pollock",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "pollack",
+                  "text": "pollack"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "pollock"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "pollock",
+                  "text": "pollock"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "pollock"
+            }
+          ],
+          "word": "pollock"
+        }
+      ]
+    }
+  },
+  "mistletoe": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "mistletoe",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "mistletoe",
+                  "text": "mistletoe"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "mistletoe"
+            }
+          ],
+          "word": "mistletoe"
+        }
+      ]
+    }
+  },
+  "resend": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "resend",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "resend",
+                  "text": "resend"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "resend"
+            }
+          ],
+          "word": "resend"
+        }
+      ]
+    }
+  },
+  "maintaining": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "maintaining",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "maintain",
+                  "text": "maintain"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "maintaining"
+            }
+          ],
+          "word": "maintaining"
+        }
+      ]
+    }
+  },
+  "diego": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'diego'"
+    }
+  },
+  "activision": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'activision'"
+    }
+  },
+  "pancreatic": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "pancreatic",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "pancreatic",
+                  "text": "pancreatic"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "pancreatic"
+            }
+          ],
+          "word": "pancreatic"
+        }
+      ]
+    }
+  },
+  "sizeof": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'sizeof'"
+    }
+  },
+  "lse": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "lse",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "abbreviation",
+                  "text": "Abbreviation",
+                  "type": "Residual"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "LSE",
+                  "text": "LSE"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "residual",
+                "text": "Residual"
+              },
+              "text": "lse"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "LSE",
+                  "text": "LSE"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "lse"
+            }
+          ],
+          "word": "lse"
+        }
+      ]
+    }
+  },
+  "vespa": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "vespa",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Vespa",
+                  "text": "Vespa"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "vespa"
+            }
+          ],
+          "word": "vespa"
+        }
+      ]
+    }
+  },
+  "polycystic": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "polycystic",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "polycystic",
+                  "text": "polycystic"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "polycystic"
+            }
+          ],
+          "word": "polycystic"
+        }
+      ]
+    }
+  },
+  "committing": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "committing",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "commit",
+                  "text": "commit"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "committing"
+            }
+          ],
+          "word": "committing"
+        }
+      ]
+    }
+  },
+  "ddd": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'ddd'"
+    }
+  },
+  "colder": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "colder",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "cold",
+                  "text": "cold"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "colder"
+            }
+          ],
+          "word": "colder"
+        }
+      ]
+    }
+  },
+  "philly": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "philly",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Philly",
+                  "text": "Philly"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "philly"
+            }
+          ],
+          "word": "philly"
+        }
+      ]
+    }
+  },
+  "geographies": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "geographies",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "geography",
+                  "text": "geography"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "geographies"
+            }
+          ],
+          "word": "geographies"
+        }
+      ]
+    }
+  },
+  "limewire": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'limewire'"
+    }
+  },
+  "rota": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "rota",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "rota",
+                  "text": "rota"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "rota"
+            }
+          ],
+          "word": "rota"
+        }
+      ]
+    }
+  },
+  "ike": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'ike'"
+    }
+  },
+  "rbc": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "rbc",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "abbreviation",
+                  "text": "Abbreviation",
+                  "type": "Residual"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "RBC",
+                  "text": "RBC"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "residual",
+                "text": "Residual"
+              },
+              "text": "rbc"
+            }
+          ],
+          "word": "rbc"
+        }
+      ]
+    }
+  },
+  "communicative": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "communicative",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "communicative",
+                  "text": "communicative"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "communicative"
+            }
+          ],
+          "word": "communicative"
+        }
+      ]
+    }
+  },
+  "qy": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'qy'"
+    }
+  },
+  "exceeding": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "exceeding",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "exceeding",
+                  "text": "exceeding"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "exceeding"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "exceeding",
+                  "text": "exceeding"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adverb",
+                "text": "Adverb"
+              },
+              "text": "exceeding"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "exceed",
+                  "text": "exceed"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "exceeding"
+            }
+          ],
+          "word": "exceeding"
+        }
+      ]
+    }
+  },
+  "nepalese": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "nepalese",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Nepalese",
+                  "text": "Nepalese"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "nepalese"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Nepalese",
+                  "text": "Nepalese"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "nepalese"
+            }
+          ],
+          "word": "nepalese"
+        }
+      ]
+    }
+  },
+  "libretto": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "libretto",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "libretto",
+                  "text": "libretto"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "libretto"
+            }
+          ],
+          "word": "libretto"
+        }
+      ]
+    }
+  },
+  "resales": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'resales'"
+    }
+  },
+  "hbr": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'hbr'"
+    }
+  },
+  "maternal": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "maternal",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "maternal",
+                  "text": "maternal"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "maternal"
+            }
+          ],
+          "word": "maternal"
+        }
+      ]
+    }
+  },
+  "chairmen": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "chairmen",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "plural",
+                  "text": "Plural",
+                  "type": "Number"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "chairman",
+                  "text": "chairman"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "chairmen"
+            }
+          ],
+          "word": "chairmen"
+        }
+      ]
+    }
+  },
+  "ministries": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "ministries",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "plural",
+                  "text": "Plural",
+                  "type": "Number"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "ministry",
+                  "text": "ministry"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "ministries"
+            }
+          ],
+          "word": "ministries"
+        }
+      ]
+    }
+  },
+  "jizzshot": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'jizzshot'"
+    }
+  },
+  "uit": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'uit'"
+    }
+  },
+  "begs": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "begs",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "beg",
+                  "text": "beg"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "begs"
+            }
+          ],
+          "word": "begs"
+        }
+      ]
+    }
+  },
+  "ascending": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "ascending",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "ascending",
+                  "text": "ascending"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "ascending"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "ascend",
+                  "text": "ascend"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "ascending"
+            }
+          ],
+          "word": "ascending"
+        }
+      ]
+    }
+  },
+  "citadel": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "citadel",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "citadel",
+                  "text": "citadel"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "citadel"
+            }
+          ],
+          "word": "citadel"
+        }
+      ]
+    }
+  },
+  "treasured": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "treasured",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "treasured",
+                  "text": "treasured"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "treasured"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "treasure",
+                  "text": "treasure"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "treasured"
+            }
+          ],
+          "word": "treasured"
+        }
+      ]
+    }
+  },
+  "aztecs": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'aztecs'"
+    }
+  },
+  "antics": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "antics",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "antics",
+                  "text": "antics"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "antics"
+            }
+          ],
+          "word": "antics"
+        }
+      ]
+    }
+  },
+  "rampage": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "rampage",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "rampage",
+                  "text": "rampage"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "rampage"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "rampage",
+                  "text": "rampage"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "rampage"
+            }
+          ],
+          "word": "rampage"
+        }
+      ]
+    }
+  },
+  "emilie": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'emilie'"
+    }
+  },
+  "kosher": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "kosher",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "kosher",
+                  "text": "kosher"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "kosher"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "kosher",
+                  "text": "kosher"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "kosher"
+            }
+          ],
+          "word": "kosher"
+        }
+      ]
+    }
+  },
+  "breakout": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "breakout",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "breakout",
+                  "text": "breakout"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "breakout"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "breakout",
+                  "text": "breakout"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "breakout"
+            }
+          ],
+          "word": "breakout"
+        }
+      ]
+    }
+  },
+  "recognizable": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "recognizable",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "recognizable",
+                  "text": "recognizable"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "recognizable"
+            }
+          ],
+          "word": "recognizable"
+        }
+      ]
+    }
+  },
+  "affection": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "affection",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "affection",
+                  "text": "affection"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "affection"
+            }
+          ],
+          "word": "affection"
+        }
+      ]
+    }
+  },
+  "eigenvectors": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "eigenvectors",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "eigenvector",
+                  "text": "eigenvector"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "eigenvectors"
+            }
+          ],
+          "word": "eigenvectors"
+        }
+      ]
+    }
+  },
+  "commutative": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "commutative",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "commutative",
+                  "text": "commutative"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "commutative"
+            }
+          ],
+          "word": "commutative"
+        }
+      ]
+    }
+  },
+  "rents": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "rents",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "rents",
+                  "text": "rents"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "rents"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "rent",
+                  "text": "rent"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "rents"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "rent",
+                  "text": "rent"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "rents"
+            }
+          ],
+          "word": "rents"
+        }
+      ]
+    }
+  },
+  "lasso": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "lasso",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "lasso",
+                  "text": "lasso"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "lasso"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "lasso",
+                  "text": "lasso"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "lasso"
+            }
+          ],
+          "word": "lasso"
+        }
+      ]
+    }
+  },
+  "lucius": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'lucius'"
+    }
+  },
+  "huston": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'huston'"
+    }
+  },
+  "screenshots": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "screenshots",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "screenshot",
+                  "text": "screenshot"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "screenshots"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "screenshot",
+                  "text": "screenshot"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "screenshots"
+            }
+          ],
+          "word": "screenshots"
+        }
+      ]
+    }
+  },
+  "narayan": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'narayan'"
+    }
+  },
+  "maritimes": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'maritimes'"
+    }
+  },
+  "schell": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'schell'"
+    }
+  },
+  "waterville": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "waterville",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Waterville",
+                  "text": "Waterville"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "waterville"
+            },
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "proper",
+                  "text": "Proper",
+                  "type": "Properness"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "Waterville",
+                  "text": "Waterville"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "waterville"
+            }
+          ],
+          "word": "waterville"
+        }
+      ]
+    }
+  },
+  "thurs": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'thurs'"
+    }
+  },
+  "masterbate": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'masterbate'"
+    }
+  },
+  "roche": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "roche",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "roche_moutonn%C3%A9e",
+                  "text": "roche moutonnée"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "roche"
+            }
+          ],
+          "word": "roche"
+        }
+      ]
+    }
+  },
+  "silvery": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "silvery",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "silvery",
+                  "text": "silvery"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "silvery"
+            }
+          ],
+          "word": "silvery"
+        }
+      ]
+    }
+  },
+  "randi": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'randi'"
+    }
+  },
+  "estate": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "estate",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "estate",
+                  "text": "estate"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "estate"
+            }
+          ],
+          "word": "estate"
+        }
+      ]
+    }
+  },
+  "tmdls": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'tmdls'"
+    }
+  },
+  "mews": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "mews",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "plural",
+                  "text": "Plural",
+                  "type": "Number"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "mews",
+                  "text": "mews"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "mews"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "mew",
+                  "text": "mew"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "mews"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "mew",
+                  "text": "mew"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "mews"
+            }
+          ],
+          "word": "mews"
+        }
+      ]
+    }
+  },
+  "zinfandel": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "zinfandel",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "Zinfandel",
+                  "text": "Zinfandel"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "zinfandel"
+            }
+          ],
+          "word": "zinfandel"
+        }
+      ]
+    }
+  },
+  "leftist": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "leftist",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "leftist",
+                  "text": "leftist"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "leftist"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "leftist",
+                  "text": "leftist"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "leftist"
+            }
+          ],
+          "word": "leftist"
+        }
+      ]
+    }
+  },
+  "kenseth": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'kenseth'"
+    }
+  },
+  "indoors": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "indoors",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "indoors",
+                  "text": "indoors"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adverb",
+                "text": "Adverb"
+              },
+              "text": "indoors"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "indoors",
+                  "text": "indoors"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "indoors"
+            }
+          ],
+          "word": "indoors"
+        }
+      ]
+    }
+  },
+  "landmarks": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "landmarks",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "landmark",
+                  "text": "landmark"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "landmarks"
+            }
+          ],
+          "word": "landmarks"
+        }
+      ]
+    }
+  },
+  "antimony": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "antimony",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "antimony",
+                  "text": "antimony"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "antimony"
+            }
+          ],
+          "word": "antimony"
+        }
+      ]
+    }
+  },
+  "woolley": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'woolley'"
+    }
+  },
+  "nosferatu": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'nosferatu'"
+    }
+  },
+  "wiped": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "wiped",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "wipe",
+                  "text": "wipe"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "wiped"
+            }
+          ],
+          "word": "wiped"
+        }
+      ]
+    }
+  },
+  "shoe": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "shoe",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "shoe",
+                  "text": "shoe"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "shoe"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "shoe",
+                  "text": "shoe"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "shoe"
+            }
+          ],
+          "word": "shoe"
+        }
+      ]
+    }
+  },
+  "woof": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "woof",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "woof",
+                  "text": "woof"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "woof"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "woof",
+                  "text": "woof"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "woof"
+            }
+          ],
+          "word": "woof"
+        }
+      ]
+    }
+  },
+  "carlisle": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "carlisle",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Carlisle",
+                  "text": "Carlisle"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "carlisle"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Carlisle",
+                  "text": "Carlisle"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "carlisle"
+            }
+          ],
+          "word": "carlisle"
+        }
+      ]
+    }
+  },
+  "taboo": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "taboo",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "taboo",
+                  "text": "taboo"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "taboo"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "taboo",
+                  "text": "taboo"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "taboo"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "taboo",
+                  "text": "taboo"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "taboo"
+            }
+          ],
+          "word": "taboo"
+        }
+      ]
+    }
+  },
+  "newmap": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'newmap'"
+    }
+  },
+  "hindu": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "hindu",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "Hindu",
+                  "text": "Hindu"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "hindu"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Hindu",
+                  "text": "Hindu"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "hindu"
+            }
+          ],
+          "word": "hindu"
+        }
+      ]
+    }
+  },
+  "unoccupied": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "unoccupied",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "unoccupied",
+                  "text": "unoccupied"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "unoccupied"
+            }
+          ],
+          "word": "unoccupied"
+        }
+      ]
+    }
+  },
+  "bloated": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "bloated",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "bloated",
+                  "text": "bloated"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "adjective",
+                "text": "Adjective"
+              },
+              "text": "bloated"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "bloat",
+                  "text": "bloat"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "bloated"
+            }
+          ],
+          "word": "bloated"
+        }
+      ]
+    }
+  },
+  "attempts": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "attempts",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "attempt",
+                  "text": "attempt"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "attempts"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "attempt",
+                  "text": "attempt"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "attempts"
+            }
+          ],
+          "word": "attempts"
+        }
+      ]
+    }
+  },
+  "apts": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "apts",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "apt.",
+                  "text": "apt."
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "apts"
+            }
+          ],
+          "word": "apts"
+        }
+      ]
+    }
+  },
+  "trailer": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "trailer",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "trailer",
+                  "text": "trailer"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "trailer"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "trailer",
+                  "text": "trailer"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "trailer"
+            }
+          ],
+          "word": "trailer"
+        }
+      ]
+    }
+  },
+  "imagemagick": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'imagemagick'"
+    }
+  },
+  "produkte": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'produkte'"
+    }
+  },
+  "pd": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "pd",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "pd",
+                  "text": "pd"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "residual",
+                "text": "Residual"
+              },
+              "text": "pd"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Pd",
+                  "text": "Pd"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "residual",
+                "text": "Residual"
+              },
+              "text": "pd"
+            },
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "abbreviation",
+                  "text": "Abbreviation",
+                  "type": "Residual"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "PD",
+                  "text": "PD"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "residual",
+                "text": "Residual"
+              },
+              "text": "pd"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "p.d.",
+                  "text": "p.d."
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "pd"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "PD",
+                  "text": "PD"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "pd"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Pd",
+                  "text": "Pd"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "pd"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "pd",
+                  "text": "pd"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "pd"
+            }
+          ],
+          "word": "pd"
+        }
+      ]
+    }
+  },
+  "bedding": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "bedding",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "bed",
+                  "text": "bed"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "bedding"
+            },
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "bedding",
+                  "text": "bedding"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "bedding"
+            }
+          ],
+          "word": "bedding"
+        }
+      ]
+    }
+  },
+  "longview": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "longview",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "proper",
+                  "text": "Proper",
+                  "type": "Properness"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "Longview",
+                  "text": "Longview"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "longview"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Longview",
+                  "text": "Longview"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "other",
+                "text": "Other"
+              },
+              "text": "longview"
+            }
+          ],
+          "word": "longview"
+        }
+      ]
+    }
+  },
+  "huxley": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'huxley'"
+    }
+  },
+  "moduli": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "moduli",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "plural",
+                  "text": "Plural",
+                  "type": "Number"
+                }
+              ],
+              "inflectionOf": [
+                {
+                  "id": "modulus",
+                  "text": "modulus"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "moduli"
+            }
+          ],
+          "word": "moduli"
+        }
+      ]
+    }
+  },
+  "mowbray": {
+    "code": 404,
+    "data": {
+      "error": "No lemma was found in dictionary 'en' for the inflected form 'mowbray'"
+    }
+  },
+  "jerry": {
+    "code": 200,
+    "data": {
+      "metadata": {
+        "provider": "Oxford University Press"
+      },
+      "results": [
+        {
+          "id": "jerry",
+          "language": "en",
+          "lexicalEntries": [
+            {
+              "inflectionOf": [
+                {
+                  "id": "jerry",
+                  "text": "jerry"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "jerry"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "jerry",
+                  "text": "jerry"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "verb",
+                "text": "Verb"
+              },
+              "text": "jerry"
+            },
+            {
+              "inflectionOf": [
+                {
+                  "id": "Jerry",
+                  "text": "Jerry"
+                }
+              ],
+              "language": "en",
+              "lexicalCategory": {
+                "id": "noun",
+                "text": "Noun"
+              },
+              "text": "jerry"
+            }
+          ],
+          "word": "jerry"
+        }
+      ]
+    }
+  }
+}

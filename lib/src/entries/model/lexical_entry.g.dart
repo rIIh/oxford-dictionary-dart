@@ -8,17 +8,23 @@ part of 'lexical_entry.dart';
 
 LexicalEntry _$LexicalEntryFromJson(Map json) {
   return LexicalEntry(
-    grammaticalFeatures: (json['grammaticalFeatures'] as List)
-        ?.map((e) => e == null ? null : GrammaticalFeature.fromJson(e as Map))
-        ?.toList(),
-    crossReferenceMarkers: (json['crossReferenceMarkers'] as List)?.map((e) => e as String)?.toList(),
-    crossReferences:
-        (json['crossReferences'] as List)?.map((e) => e == null ? null : CrossReference.fromJson(e as Map))?.toList(),
-    etymologies: (json['etymologies'] as List)?.map((e) => e as String)?.toList(),
-    homographNumber: json['homographNumber'] as String,
-    pronunciations:
-        (json['pronunciations'] as List)?.map((e) => e == null ? null : Pronunciation.fromJson(e as Map))?.toList(),
-    senses: (json['senses'] as List)?.map((e) => e == null ? null : SenseFromRemote.fromJson(e as Map))?.toList(),
+    (json['grammaticalFeatures'] as List<dynamic>?)
+        ?.map((e) => GrammaticalFeature.fromJson(e as Map))
+        .toList(),
+    (json['crossReferenceMarkers'] as List<dynamic>?)
+        ?.map((e) => e as String)
+        .toList(),
+    (json['crossReferences'] as List<dynamic>?)
+        ?.map((e) => CrossReference.fromJson(e as Map))
+        .toList(),
+    (json['etymologies'] as List<dynamic>?)?.map((e) => e as String).toList(),
+    json['homographNumber'] as String?,
+    (json['pronunciations'] as List<dynamic>?)
+        ?.map((e) => Pronunciation.fromJson(e as Map))
+        .toList(),
+    (json['senses'] as List<dynamic>?)
+        ?.map((e) => SenseFromRemote.fromJson(e as Map))
+        .toList(),
   );
 }
 
@@ -32,11 +38,14 @@ Map<String, dynamic> _$LexicalEntryToJson(LexicalEntry instance) {
   }
 
   writeNotNull('crossReferenceMarkers', instance.crossReferenceMarkers);
-  writeNotNull('crossReferences', instance.crossReferences?.map((e) => e?.toJson())?.toList());
-  writeNotNull('grammaticalFeatures', instance.grammaticalFeatures?.map((e) => e?.toJson())?.toList());
+  writeNotNull('crossReferences',
+      instance.crossReferences?.map((e) => e.toJson()).toList());
+  writeNotNull('grammaticalFeatures',
+      instance.grammaticalFeatures?.map((e) => e.toJson()).toList());
   writeNotNull('etymologies', instance.etymologies);
   writeNotNull('homographNumber', instance.homographNumber);
-  writeNotNull('pronunciations', instance.pronunciations?.map((e) => e?.toJson())?.toList());
-  writeNotNull('senses', instance.senses?.map((e) => e?.toJson())?.toList());
+  writeNotNull('pronunciations',
+      instance.pronunciations?.map((e) => e.toJson()).toList());
+  writeNotNull('senses', instance.senses?.map((e) => e.toJson()).toList());
   return val;
 }

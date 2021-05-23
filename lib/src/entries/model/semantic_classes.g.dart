@@ -13,16 +13,8 @@ SemanticClass _$SemanticClassFromJson(Map json) {
   );
 }
 
-Map<String, dynamic> _$SemanticClassToJson(SemanticClass instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('id', instance.id);
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$SemanticClassToJson(SemanticClass instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'text': instance.text,
+    };

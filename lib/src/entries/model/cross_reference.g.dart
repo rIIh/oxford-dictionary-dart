@@ -9,13 +9,15 @@ part of 'cross_reference.dart';
 CrossReference _$CrossReferenceFromJson(Map json) {
   return CrossReference(
     json['id'] as String,
-    json['text'] as String,
-    json['type'] as String,
+    json['text'] as String?,
+    json['type'] as String?,
   );
 }
 
 Map<String, dynamic> _$CrossReferenceToJson(CrossReference instance) {
-  final val = <String, dynamic>{};
+  final val = <String, dynamic>{
+    'id': instance.id,
+  };
 
   void writeNotNull(String key, dynamic value) {
     if (value != null) {
@@ -23,7 +25,6 @@ Map<String, dynamic> _$CrossReferenceToJson(CrossReference instance) {
     }
   }
 
-  writeNotNull('id', instance.id);
   writeNotNull('text', instance.text);
   writeNotNull('type', instance.type);
   return val;

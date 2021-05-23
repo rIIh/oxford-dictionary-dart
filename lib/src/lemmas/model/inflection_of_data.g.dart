@@ -13,16 +13,8 @@ InflectionOfData _$InflectionOfDataFromJson(Map json) {
   );
 }
 
-Map<String, dynamic> _$InflectionOfDataToJson(InflectionOfData instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('id', instance.id);
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$InflectionOfDataToJson(InflectionOfData instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'text': instance.text,
+    };

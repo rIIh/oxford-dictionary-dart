@@ -9,12 +9,14 @@ part of 'domain_class.dart';
 DomainClass _$DomainClassFromJson(Map json) {
   return DomainClass(
     json['id'] as String,
-    json['text'] as String,
+    json['text'] as String?,
   );
 }
 
 Map<String, dynamic> _$DomainClassToJson(DomainClass instance) {
-  final val = <String, dynamic>{};
+  final val = <String, dynamic>{
+    'id': instance.id,
+  };
 
   void writeNotNull(String key, dynamic value) {
     if (value != null) {
@@ -22,7 +24,6 @@ Map<String, dynamic> _$DomainClassToJson(DomainClass instance) {
     }
   }
 
-  writeNotNull('id', instance.id);
   writeNotNull('text', instance.text);
   return val;
 }

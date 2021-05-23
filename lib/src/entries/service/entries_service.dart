@@ -18,24 +18,36 @@ abstract class EntriesService extends ChopperService {
 class EntriesServiceImpl extends CachedEntriesService {
   final String language;
 
-  EntriesServiceImpl(this.language, [Cache cache, ChopperClient client]) : super(cache, client);
+  EntriesServiceImpl(
+    this.language, {
+    Cache? cache,
+    ChopperClient? client,
+  }) : super(cache, client: client);
 
-  Future<Word> search(String word) async => super
-      ._search(
-        language,
-        word,
-      )
-      .then(mapResponse)
-      .then(mapCachedResponse)
-      .then(
-        (response) => Word.fromEntry(response.body, response.base is CachedResponse),
+  Future<Word?> search(String word) async => super
+          ._search(
+            language,
+            word,
+          )
+          .then(mapResponse)
+          .then(mapCachedResponse)
+          .then(
+        (response) {
+          final body = response.body;
+          if (body != null) {
+            return Word.fromEntry(body, response.base is CachedResponse);
+          }
+        },
       );
 }
 
 class CachedEntriesService extends _$EntriesService {
-  final Cache cache;
+  final Cache? cache;
 
-  CachedEntriesService(this.cache, [ChopperClient client]) : super(client);
+  CachedEntriesService(
+    this.cache, {
+    ChopperClient? client,
+  }) : super(client);
 
   @override
   Future<Response<DictionaryEntries>> _search(
@@ -45,7 +57,7 @@ class CachedEntriesService extends _$EntriesService {
     final key = 'entry_$word';
     final hasCache = (await cache?.containsKey(key)) == true;
     if (hasCache) {
-      return cache.get(key).then(
+      return cache!.get(key).then(
             (value) => Response(
               CachedResponse(),
               value != null ? DictionaryEntries.fromJson(value) : null,
@@ -58,7 +70,7 @@ class CachedEntriesService extends _$EntriesService {
         return error;
       },
     );
-    await cache?.put(key, response.body.toJson());
+    await cache?.put(key, response.body?.toJson());
     return response;
   }
 }

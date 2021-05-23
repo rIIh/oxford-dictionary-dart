@@ -9,7 +9,7 @@ class LemmaResult {
   final String id;
   final String language;
   final List<LemmaEntry> lexicalEntries;
-  final String word;
+  final String? word;
 
   LemmaResult(this.id, this.language, this.lexicalEntries, this.word);
 

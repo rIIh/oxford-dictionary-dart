@@ -5,5 +5,5 @@ targets:
         options:
           explicit_to_json: true
           include_if_null: false
-          nullable: true
+          # nullable: true
           any_map: true

@@ -4,9 +4,9 @@ part 'metadata.g.dart';
 
 @JsonSerializable()
 class Metadata {
-  final String operation;
   final String provider;
-  final String schema;
+  final String? operation;
+  final String? schema;
 
   Metadata(this.operation, this.provider, this.schema);
 

@@ -4,10 +4,10 @@ part 'pronunciation.g.dart';
 
 @JsonSerializable()
 class Pronunciation {
-  final String audioFile;
-  final List<String> dialects;
-  final String phoneticNotation;
-  final String phoneticSpelling;
+  final String? audioFile;
+  final String? phoneticNotation;
+  final String? phoneticSpelling;
+  final List<String>? dialects;
 
   Pronunciation(this.audioFile, this.dialects, this.phoneticNotation, this.phoneticSpelling);
 

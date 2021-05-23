@@ -13,16 +13,7 @@ Synonym _$SynonymFromJson(Map json) {
   );
 }
 
-Map<String, dynamic> _$SynonymToJson(Synonym instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('language', instance.language);
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$SynonymToJson(Synonym instance) => <String, dynamic>{
+      'language': instance.language,
+      'text': instance.text,
+    };

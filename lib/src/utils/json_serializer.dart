@@ -7,7 +7,7 @@ class JsonSerializableConverter extends JsonConverter {
 
   JsonSerializableConverter(this.factories);
 
-  T _decodeMap<T>(Map<String, dynamic> values) {
+  T? _decodeMap<T>(Map<String, dynamic> values) {
     /// Get jsonFactory using Type parameters
     /// if not found or invalid, throw error or return null
     final jsonFactory = factories[T];
@@ -22,9 +22,9 @@ class JsonSerializableConverter extends JsonConverter {
   List<T> _decodeList<T>(List values) => values.where((v) => v != null).map<T>((v) => _decode<T>(v)).toList();
 
   dynamic _decode<T>(entity) {
-    if (entity is Iterable) return _decodeList<T>(entity);
+    if (entity is Iterable) return _decodeList<T>(entity.toList());
 
-    if (entity is Map) return _decodeMap<T>(entity);
+    if (entity is Map) return _decodeMap<T>(entity.cast());
 
     return entity;
   }

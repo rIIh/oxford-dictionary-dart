@@ -9,14 +9,20 @@ part of 'dictionary_entry.dart';
 DictionaryEntries _$DictionaryEntriesFromJson(Map json) {
   return DictionaryEntries(
     id: json['id'] as String,
-    metadata: json['metadata'] == null ? null : Metadata.fromJson(json['metadata'] as Map),
-    results: (json['results'] as List)?.map((e) => e == null ? null : Result.fromJson(e as Map))?.toList(),
+    metadata: json['metadata'] == null
+        ? null
+        : Metadata.fromJson(json['metadata'] as Map),
+    results: (json['results'] as List<dynamic>?)
+        ?.map((e) => Result.fromJson(e as Map))
+        .toList(),
     word: json['word'] as String,
   );
 }
 
 Map<String, dynamic> _$DictionaryEntriesToJson(DictionaryEntries instance) {
-  final val = <String, dynamic>{};
+  final val = <String, dynamic>{
+    'id': instance.id,
+  };
 
   void writeNotNull(String key, dynamic value) {
     if (value != null) {
@@ -24,9 +30,8 @@ Map<String, dynamic> _$DictionaryEntriesToJson(DictionaryEntries instance) {
     }
   }
 
-  writeNotNull('id', instance.id);
   writeNotNull('metadata', instance.metadata?.toJson());
-  writeNotNull('results', instance.results?.map((e) => e?.toJson())?.toList());
-  writeNotNull('word', instance.word);
+  writeNotNull('results', instance.results?.map((e) => e.toJson()).toList());
+  val['word'] = instance.word;
   return val;
 }

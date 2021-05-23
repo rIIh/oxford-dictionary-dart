@@ -18,34 +18,43 @@ abstract class LemmasService extends ChopperService {
 class LemmasServiceImpl extends CachedLemmasService {
   final String language;
 
-  LemmasServiceImpl(this.language, [Cache cache, ChopperClient client]) : super(cache, client);
+  LemmasServiceImpl(
+    this.language, {
+    Cache? cache,
+    ChopperClient? client,
+  }) : super(cache, client: client);
 
-  Future<Lemmas> search(String word) async => super
-      ._search(
-        language,
-        word,
-      )
-      .then(mapResponse)
-      .then(mapCachedResponse)
-      .then(
-        (response) => Lemmas.fromEntry(
-          response.body,
-          response.base is CachedResponse,
-        ),
+  Future<Lemmas?> search(String word) async => super
+          ._search(
+            language,
+            word,
+          )
+          .then(mapResponse)
+          .then(mapCachedResponse)
+          .then(
+        (response) {
+          final body = response.body;
+          if (body != null) {
+            return Lemmas.fromEntry(
+              body,
+              response.base is CachedResponse,
+            );
+          }
+        },
       );
 }
 
 class CachedLemmasService extends _$LemmasService {
-  final Cache cache;
+  final Cache? cache;
 
-  CachedLemmasService(this.cache, [ChopperClient client]) : super(client);
+  CachedLemmasService(this.cache, {ChopperClient? client}) : super(client);
 
   @override
   Future<Response<LemmaResponse>> _search(String language, String word) async {
     final key = 'lemma_$word';
     final hasCache = await cache?.containsKey(key) == true;
     if (hasCache) {
-      return cache.get(key).then(
+      return cache!.get(key).then(
             (value) => Response(
               CachedResponse(),
               value != null ? LemmaResponse.fromJson(value) : null,
@@ -56,7 +65,7 @@ class CachedLemmasService extends _$LemmasService {
       await cache?.put(key, null);
       return error;
     });
-    await cache?.put(key, response.body.toJson());
+    await cache?.put(key, response.body?.toJson());
     return response;
   }
 }

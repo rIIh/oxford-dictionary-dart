@@ -8,10 +8,10 @@ part of 'pronunciation.dart';
 
 Pronunciation _$PronunciationFromJson(Map json) {
   return Pronunciation(
-    json['audioFile'] as String,
-    (json['dialects'] as List)?.map((e) => e as String)?.toList(),
-    json['phoneticNotation'] as String,
-    json['phoneticSpelling'] as String,
+    json['audioFile'] as String?,
+    (json['dialects'] as List<dynamic>?)?.map((e) => e as String).toList(),
+    json['phoneticNotation'] as String?,
+    json['phoneticSpelling'] as String?,
   );
 }
 
@@ -25,8 +25,8 @@ Map<String, dynamic> _$PronunciationToJson(Pronunciation instance) {
   }
 
   writeNotNull('audioFile', instance.audioFile);
-  writeNotNull('dialects', instance.dialects);
   writeNotNull('phoneticNotation', instance.phoneticNotation);
   writeNotNull('phoneticSpelling', instance.phoneticSpelling);
+  writeNotNull('dialects', instance.dialects);
   return val;
 }

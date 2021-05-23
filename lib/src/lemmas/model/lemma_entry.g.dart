@@ -8,25 +8,19 @@ part of 'lemma_entry.dart';
 
 LemmaEntry _$LemmaEntryFromJson(Map json) {
   return LemmaEntry(
-    (json['inflectionOf'] as List)?.map((e) => e == null ? null : InflectionOfData.fromJson(e as Map))?.toList(),
+    (json['inflectionOf'] as List<dynamic>)
+        .map((e) => InflectionOfData.fromJson(e as Map))
+        .toList(),
     json['language'] as String,
-    json['lexicalCategory'] == null ? null : LexicalCategory.fromJson(json['lexicalCategory'] as Map),
+    LexicalCategory.fromJson(json['lexicalCategory'] as Map),
     json['text'] as String,
   );
 }
 
-Map<String, dynamic> _$LemmaEntryToJson(LemmaEntry instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('inflectionOf', instance.inflectionOf?.map((e) => e?.toJson())?.toList());
-  writeNotNull('language', instance.language);
-  writeNotNull('lexicalCategory', instance.lexicalCategory?.toJson());
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$LemmaEntryToJson(LemmaEntry instance) =>
+    <String, dynamic>{
+      'inflectionOf': instance.inflectionOf.map((e) => e.toJson()).toList(),
+      'lexicalCategory': instance.lexicalCategory.toJson(),
+      'language': instance.language,
+      'text': instance.text,
+    };

@@ -11,8 +11,8 @@ class LexicalEntries {
   final List<LexicalEntry> entries;
   final String language;
   final LexicalCategory lexicalCategory;
-  final List<Phrase> phrases;
-  final String text;
+  final List<Phrase>? phrases;
+  final String? text;
 
   LexicalEntries(this.entries, this.language, this.lexicalCategory, this.phrases, this.text);
 

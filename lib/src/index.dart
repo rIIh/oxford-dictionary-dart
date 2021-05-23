@@ -28,7 +28,7 @@ class OxfordDictionary {
     String appId,
     String appKey, {
     this.cache,
-    http.Client client,
+    http.Client? client,
   }) {
     _client = ChopperClient(
       baseUrl: 'https://od-api.oxforddictionaries.com/api/v2',
@@ -40,8 +40,8 @@ class OxfordDictionary {
         }),
       ],
       services: [
-        EntriesServiceImpl(language, cache),
-        LemmasServiceImpl(language, cache),
+        EntriesServiceImpl(language, cache: cache),
+        LemmasServiceImpl(language, cache: cache),
       ],
       converter: JsonSerializableConverter({
         ...EntriesFactories.create,
@@ -52,14 +52,14 @@ class OxfordDictionary {
 
   final String language;
 
-  ChopperClient _client;
+  late ChopperClient _client;
 
   /// Service to access `entries` endpoint in Oxford API
   ///
   /// {@macro oxford_doc_information}
   ///
   /// Use this to retrieve definitions, pronunciations, example sentences, grammatical information and word origins
-  EntriesServiceImpl get entries => _client.getService<EntriesService>();
+  EntriesServiceImpl get entries => _client.getService<EntriesService>() as EntriesServiceImpl;
 
   /// Service to access `lemmas` endpoint in Oxford API
   ///
@@ -68,7 +68,7 @@ class OxfordDictionary {
   /// Use this to check if a word exists in the dictionary, or what 'root' form it links to (e.g., swimming > swim).
   /// The response tells you the possible lemmas for a given inflected word.
   /// This can then be combined with other endpoints to retrieve more information.
-  LemmasServiceImpl get lemmas => _client.getService<LemmasService>();
+  LemmasServiceImpl get lemmas => _client.getService<LemmasService>() as LemmasServiceImpl;
 
-  final Cache cache;
+  final Cache? cache;
 }

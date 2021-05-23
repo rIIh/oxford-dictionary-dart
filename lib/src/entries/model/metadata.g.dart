@@ -8,14 +8,16 @@ part of 'metadata.dart';
 
 Metadata _$MetadataFromJson(Map json) {
   return Metadata(
-    json['operation'] as String,
+    json['operation'] as String?,
     json['provider'] as String,
-    json['schema'] as String,
+    json['schema'] as String?,
   );
 }
 
 Map<String, dynamic> _$MetadataToJson(Metadata instance) {
-  final val = <String, dynamic>{};
+  final val = <String, dynamic>{
+    'provider': instance.provider,
+  };
 
   void writeNotNull(String key, dynamic value) {
     if (value != null) {
@@ -24,7 +26,6 @@ Map<String, dynamic> _$MetadataToJson(Metadata instance) {
   }
 
   writeNotNull('operation', instance.operation);
-  writeNotNull('provider', instance.provider);
   writeNotNull('schema', instance.schema);
   return val;
 }

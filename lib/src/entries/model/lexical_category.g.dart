@@ -13,16 +13,8 @@ LexicalCategory _$LexicalCategoryFromJson(Map json) {
   );
 }
 
-Map<String, dynamic> _$LexicalCategoryToJson(LexicalCategory instance) {
-  final val = <String, dynamic>{};
-
-  void writeNotNull(String key, dynamic value) {
-    if (value != null) {
-      val[key] = value;
-    }
-  }
-
-  writeNotNull('id', instance.id);
-  writeNotNull('text', instance.text);
-  return val;
-}
+Map<String, dynamic> _$LexicalCategoryToJson(LexicalCategory instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'text': instance.text,
+    };

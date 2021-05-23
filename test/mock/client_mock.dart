@@ -7,7 +7,7 @@ const oxford = 'https://od-api.oxforddictionaries.com/api/v2';
 
 class ClientMock extends Fake implements http.Client {
   @override
-  Future<http.Response> get(url, {Map<String, String> headers}) async {
+  Future<http.Response> get(Uri url, {Map<String, String>? headers}) async {
     if (url == '$oxford/entries/en/industry') {
       return http.Response(
         await File('data/industry_entry.json').readAsString(),

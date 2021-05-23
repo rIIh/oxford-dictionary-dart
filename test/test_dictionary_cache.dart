@@ -6,17 +6,19 @@ import 'package:test/test.dart';
 import 'mock/client_mock.dart';
 
 void main() {
-  Cache cache;
-  OxfordDictionary oxfordDictionary;
+  late Cache cache;
+  late OxfordDictionary oxfordDictionary;
 
   setUp(() {
-    cache ??= newMemoryCache(
+    cache = newMemoryCache(
       maxEntries: 10,
       expiryPolicy: EternalExpiryPolicy(),
     );
+
     try {
       cache.clear();
     } catch (_) {}
+
     oxfordDictionary = OxfordDictionary(
       'en',
       'test_id',
@@ -40,9 +42,9 @@ void main() {
 
   test('get cached response', () async {
     final first_response = await oxfordDictionary.entries.search('industry');
-    expect(first_response.isCached, isFalse);
+    expect(first_response?.isCached, isFalse);
 
     final second_response = await oxfordDictionary.entries.search('industry');
-    expect(second_response.isCached, isTrue);
+    expect(second_response?.isCached, isTrue);
   });
 }

@@ -8,11 +8,16 @@ part 'dictionary_entry.g.dart';
 @JsonSerializable()
 class DictionaryEntries {
   final String id;
-  final Metadata metadata;
-  final List<Result> results;
+  final Metadata? metadata;
+  final List<Result>? results;
   final String word;
 
-  DictionaryEntries({this.id, this.metadata, this.results, this.word});
+  DictionaryEntries({
+    required this.id,
+    required this.metadata,
+    required this.results,
+    required this.word,
+  });
 
   factory DictionaryEntries.fromJson(Map json) => _$DictionaryEntriesFromJson(json);
 

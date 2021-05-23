@@ -5,7 +5,7 @@ part 'domain_class.g.dart';
 @JsonSerializable()
 class DomainClass {
   final String id;
-  final String text;
+  final String? text;
 
   DomainClass(this.id, this.text);
 

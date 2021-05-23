@@ -7,16 +7,16 @@ void main() {
   find('programming').then((word) {});
 }
 
-Future<Word> find(String wordString, [http.Client client]) async {
+Future<Word?> find(String wordString, [http.Client? client]) async {
   final dictionary = OxfordDictionary(
     'en',
-    Platform.environment['APP_ID'],
-    Platform.environment['APP_KEY'],
+    Platform.environment['APP_ID'] ?? 'test_app_id',
+    Platform.environment['APP_KEY'] ?? 'test_app_key',
     client: client,
   );
 
   // get word definition entry
-  final word = await dictionary.entries.search(wordString);
+  final word = await dictionary.entries.search(wordString).then((value) => value!);
 
   print(word);
 
@@ -31,7 +31,7 @@ Future<Word> find(String wordString, [http.Client client]) async {
 
   // get senses
   final senses = word.variants.values
-      .map((variants) => variants?.map((variant) => variant.senses))
+      .map((variants) => variants.map((variant) => variant.senses))
       .expand((senses) => senses)
       .toList();
 
@@ -44,4 +44,32 @@ Future<Word> find(String wordString, [http.Client client]) async {
   print([phrases, pronunciations, senses, definitions, subSenses].join('\n'));
 
   return word;
+}
+
+Future<Lemmas?> findLemmas(String wordString, [http.Client? client]) async {
+  final dictionary = OxfordDictionary(
+    'en',
+    Platform.environment['APP_ID'] ?? 'test_app_id',
+    Platform.environment['APP_KEY'] ?? 'test_app_key',
+    client: client,
+  );
+
+  final lemmas = await dictionary.lemmas.search(wordString).then((value) => value!);
+
+  print(lemmas);
+
+  for (final inflection in lemmas.inflections.entries) {
+    final category = inflection.key;
+    final inflectionsByCategory = inflection.value;
+
+    print("Searching words defenitions for inflections of ${wordString} for ${category.text} category");
+
+    final wordsForCategory = await Future.wait(
+      inflectionsByCategory.map((e) => find(e.text)).toList(),
+    );
+
+    print(wordsForCategory.whereType<Word>().map((e) => e.variants).join(', '));
+  }
+
+  return lemmas;
 }

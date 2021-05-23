@@ -8,8 +8,8 @@ part 'lemma_entry.g.dart';
 @JsonSerializable()
 class LemmaEntry {
   final List<InflectionOfData> inflectionOf;
-  final String language;
   final LexicalCategory lexicalCategory;
+  final String language;
   final String text;
 
   LemmaEntry(this.inflectionOf, this.language, this.lexicalCategory, this.text);
