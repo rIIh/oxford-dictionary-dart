@@ -1,3 +1,10 @@
+### [2.0.2](https://github.com/rIIh/oxford-dictionary-dart/compare/v2.0.1...v2.0.2) (2021-05-23)
+
+
+### :memo: Documentation
+
+* fix readme links ([1cbb809](https://github.com/rIIh/oxford-dictionary-dart/commit/1cbb809516c4374735b3f39a0f2117ffea15b547))
+
 ### [2.0.1](https://github.com/rIIh/oxford-dictionary-dart/compare/v2.0.0...v2.0.1) (2021-05-23)
 
 
