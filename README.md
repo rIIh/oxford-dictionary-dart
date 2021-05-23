@@ -10,7 +10,7 @@ functionality.* **Feel free to contribute!**
 
 To test package soundness there was 100 requests saved with according responses in `test/fixtures/{entries,lemmas}/` folders. If you encounter any null value error please open an issue in repository **Issues** page.
 
-See [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+See [Contribution guidelines for this project](CONTRIBUTING.md)
 
 Read
 [Oxford Dictionaries Documentation](https://developer.oxforddictionaries.com/documentation/getting_started)
