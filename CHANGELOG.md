@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/rIIh/oxford-dictionary-dart/compare/v1.0.1...v2.0.0) (2021-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* now uses dart versions >=2.12.0
+
+### :sparkles: Features
+
+* migrate to null safety ([d25c89e](https://github.com/rIIh/oxford-dictionary-dart/commit/d25c89e2f289aa187a85da41f6ce82a21f170d86))
+
 ### [1.0.1](https://github.com/rIIh/oxford-dictionary-dart/compare/v1.0.0...v1.0.1) (2021-01-17)
 
 
