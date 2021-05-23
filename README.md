@@ -8,6 +8,10 @@ functionality.* **Feel free to contribute!**
 > synonyms, antonyms, parts of speech, and more) to use in your apps and
 > websites.
 
+To test package soundness there was 100 requests saved with according responses in `test/fixtures/{entries,lemmas}/` folders. If you encounter any null value error please open an issue in repository **Issues** page.
+
+See [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 Read
 [Oxford Dictionaries Documentation](https://developer.oxforddictionaries.com/documentation/getting_started)
 
@@ -26,6 +30,8 @@ flutter pub run build_runner build
 ```
 
 ## How to use
+
+See [example](example/main.dart) for more usecase information.
 
 ```dart
 void main() async {
