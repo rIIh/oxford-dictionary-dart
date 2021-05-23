@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/rIIh/oxford-dictionary-dart/compare/v2.0.0...v2.0.1) (2021-05-23)
+
+
+### :memo: Documentation
+
+* **contributing:** add contributing guideline ([efe08ed](https://github.com/rIIh/oxford-dictionary-dart/commit/efe08ed327f98a44eacc465bec4e989a054a786d))
+
 ## [2.0.0](https://github.com/rIIh/oxford-dictionary-dart/compare/v1.0.1...v2.0.0) (2021-05-23)
 
 
