@@ -1,3 +1,10 @@
+### [2.0.3](https://github.com/rIIh/oxford-dictionary-dart/compare/v2.0.2...v2.0.3) (2021-05-26)
+
+
+### :zap: Refactoring
+
+* **ci:** format code on publish pipeline ([7315b2a](https://github.com/rIIh/oxford-dictionary-dart/commit/7315b2ae3db512b685ffbac9acd5bc4b5fd7bdf5))
+
 ### [2.0.2](https://github.com/rIIh/oxford-dictionary-dart/compare/v2.0.1...v2.0.2) (2021-05-23)
 
 
